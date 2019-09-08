@@ -1,0 +1,5 @@
+{
+  "db":{
+    "url":"mongodb+srv://pottAdmin:0OlNFwcGkFF8bcFV@lab-work1-rylxw.mongodb.net/test?retryWrites=true&w=majority"
+  }
+}
