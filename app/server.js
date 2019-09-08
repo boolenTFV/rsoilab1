@@ -4,7 +4,7 @@ const server = express({});
 const index = require('./routes/Index');
 const logger = morgan(':method :url :status :res[content-length] - :response-time ms');
 const db = require('./db');
-var port = 3000;
+var port = 80;
 
 require("./db");
 
