@@ -1,6 +1,6 @@
 const assert = require('assert');
 const httpMocks = require("node-mocks-http");
-const IndexController = require('../../app/routes/index');
+const IndexController = require('../../app/routes/Index');
 const Person = require('../../app/models/Person');
 const dbman = require('../testDb');
 
