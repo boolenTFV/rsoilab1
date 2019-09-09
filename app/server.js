@@ -11,10 +11,11 @@ require("./db");
 server.use(logger)
 	.use(express.urlencoded({
   	extended: true
-	})).use(function(req, res, next) {
+	})).use(express.json()).use('/', index)
+	.use(function(req, res, next) {
     res.setHeader("Content-Type", "application/json");
     next();
-	}).use(express.json()).use('/', index);
+	});
 
 server.listen(port, function(){
 	console.log("server run on port "+port);
